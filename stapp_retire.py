@@ -288,7 +288,7 @@ def main():
         else:
             st.subheader('訓練用データをアップロードしてください')
     if choice == 'About':
-        image = Image.open('logo.ncc.png')
+        image = Image.open('logo_ncc.png')
         st.image(image)
         st.markdown("Built by [NCC student]") 
         st.text("Version 1.0")
