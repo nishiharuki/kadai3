@@ -288,7 +288,7 @@ def main():
         else:
             st.subheader('訓練用データをアップロードしてください')
     if choice == 'About':
-        image = Image.open('![logo_ncc](https://user-images.githubusercontent.com/119283239/206338475-8b4ba33c-24fd-4488-a09d-44148859cfa0.png)')
+        image = Image.open('!https://user-images.githubusercontent.com/119283239/206338475-8b4ba33c-24fd-4488-a09d-44148859cfa0.png')
         st.image(image)
         st.markdown("Built by [NCC student]") 
         st.text("Version 1.0")
